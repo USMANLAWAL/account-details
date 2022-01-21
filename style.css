@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: red;
+  color: white;
+}
+.Deposit{
+  background-color: yellow;
+  cursor: pointer;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 30px;
+  margin: 80px;
+  border-radius: 15px;
+}
+.Withdrawal{
+  background-color: yellow;
+  cursor: pointer;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 30px;
+  margin: 80px;
+  border-radius: 15px;
+}
+input[type=text] {
+  width: 50px;
+
+}
+.bal{
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+body {
+  font-size: 50px;
+  background-color: orangered;
+}
+
+.label-text {
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+#depositInput {
+  visibility: hidden;
+}
+.input{
+  border-radius: 20px;
+  font-size: 50px;
+}
+
+#withdrawInput {
+  visibility: hidden;
+}

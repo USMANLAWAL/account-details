@@ -1,0 +1,32 @@
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="main.js">
+  <script src="main.js"></script>
+</head>
+  <body>
+    <div class="bal">Total Balance: <span id="balance"></span>
+    </div>
+  <div>
+  <button onclick="deposit()" class="Deposit">Deposit</button>
+    <button onclick="withdraw()" class="Withdrawal">Withdraw</button>
+  </div>
+    
+    <div id="depositInput">
+      <label class="label-text">Enter deposit amount:</label>
+      <input type="number" class="input" id="deposit-amount">
+      <div>
+        <button onclick="confirmDeposit()" class="Deposit"> Confirm</button>
+      </div>
+    </div> 
+    
+    <div id="withdrawInput">
+      <label class="label-text">Enter withdrawal amount:</label>
+      <input type="number" class="input" id="withdraw-amount">
+      <div>
+        <button onclick="confirmWithdraw()" class="Withdrawal"> Confirm</button>
+      </div>
+    </div>
+  </body>
+</html>
